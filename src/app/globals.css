@@ -6,9 +6,44 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --nat-navbar-bg: #00008b; /* Dark blue background color for NavBar and footer */
+  --nat-navbar-bg-rgb: 0, 0, 139;
+  --nat-navbar-text-color: white; /* Text color for dark background */
+  --nat-navbar-highlight-text: khaki; /* Highlight color for hover effects */
+}
+
+body {
+  background: fixed center url("/background.jpg"); /* Background image */
+  background-size: cover;
+
+  /* Override Bootstrap's dark background variables */
+  --bs-dark: var(--nat-navbar-bg);
+  --bs-dark-rgb: var(--nat-navbar-bg-rgb);
+}
+
+/* Footer and Navbar text color */
+footer, footer a {
+  color: var(--nat-navbar-text-color); /* White text */
+}
+
+body .navbar {
+  --bs-navbar-active-color: var(--nat-navbar-highlight-text); /* Active/hover link color */
+  --bs-navbar-brand-color: var(--nat-navbar-text-color); /* Brand text color */
+  --bs-navbar-brand-hover-color: var(--nat-navbar-highlight-text); /* Brand hover color */
+  --bs-navbar-color: var(--nat-navbar-text-color); /* Default navbar text color */
+  --bs-navbar-hover-color: var(--nat-navbar-highlight-text); /* Navbar hover text color */
+}
+
+/* Dropdown items in dark mode */
+.bg-dark a.dropdown-item {
+  color: var(--nat-navbar-bg); /* Match dropdown text to navbar background */
 }
