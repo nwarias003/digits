@@ -10,7 +10,8 @@ const ContactCard = ({ contact }: { contact: Contact }) => (
     <Card.Header>
       <Image src={contact.image} width={75} />
       <Card.Title>
-        {contact.firstName} {contact.lastName}
+        {contact.firstName}
+        {contact.lastName}
       </Card.Title>
       <Card.Subtitle>{contact.address}</Card.Subtitle>
     </Card.Header>
