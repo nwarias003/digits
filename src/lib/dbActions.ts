@@ -118,6 +118,16 @@ export async function addContact(contact: {
   redirect('/list');
 }
 
+export async function addNote(note: { note: string; own: string; contactId: number }) {
+  await prisma.note.create({
+    data: {
+      note: note.note,
+      owner: note.owner,
+      contactId: note.contactId,
+    },
+  });
+  redirect('/list');
+}
 /**
  * Edits an existing contact in the database.
  * @param contact, an object containing the contact's details to be updated.
