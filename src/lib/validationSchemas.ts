@@ -33,6 +33,12 @@ export const AddContactSchema = Yup.object().shape({
   owner: Yup.string().required('Owner is required'),
 });
 
+export const AddNoteSchema = Yup.object({
+  note: Yup.string().required(),
+  owner: Yup.string().required(),
+  contactId: Yup.number().required(),
+});
+
 export const EditContactSchema = Yup.object().shape({
   id: Yup.number().required(),
   firstName: Yup.string().required('First Name is required'),
