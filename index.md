@@ -10,7 +10,7 @@ Digits is an application that allows users to:
 
 First, [download a copy of Digits](https://github.com/nwarias003/digits). 
 
-Second, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+Second, go to your newly created repository and click the "Clone or download" button to download your new GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
 
 Third, [install PostgreSQL](https://www.postgresql.org/download/). Then create a database for your application.
 
@@ -158,7 +158,7 @@ This page also allows the user to add timestamped “notes” detailing interact
 <img src="doc/note.png">
 
 ### Add Contacts
-From the Home page or List Contacts page, the user can click the 'Add Contact' link to bring up a page that allows them to enter new contact information. This page includes fields for the contact's first and last name, address, image, and description. After filling out the form, the user can save the new contact, which will then appear in the list of contacts.
+From the Home page or List Contacts page, the user can click the 'Add Contact' link to bring up a page that allows them to enter new contact information. This page includes fields for the contact's first and last names, address, image, and description. After filling out the form, the user can save the new contact, which will then appear in the list of contacts.
 
 <img src="doc/add.png">
 
