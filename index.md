@@ -1,4 +1,4 @@
-<img src="doc/landing.png">
+<img src="doc/landing.png" style="box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4); border-radius: 4px;" alt="Landing Page Screenshot">
 
 Digits is an application that allows users to:
 
@@ -155,6 +155,7 @@ Clicking on the List Contacts link brings up a page that lists all of the contac
 
 
 This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
+
 <img src="doc/note.png">
 
 ### Add Contacts
