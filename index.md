@@ -121,35 +121,21 @@ $ npm run lint
 $
 ```
 
-## Walkthrough
+## User Interface Walkthrough
 
 The following sections describe the major features of this template.
 
-### Directory structure
+### Landing Page
 
-The top-level directory structure is:
+When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
 
-```
+<img src="doc/landing.png">
 
-.github # holds the GitHub Continuous Integration action and Issue template.
 
-config/ # holds configuration files, such as settings.development.json
 
-doc/ # holds developer documentation, user guides, etc.
 
-prisma/ # holds the Prisma ORM schema and seed.ts files.
 
-public/ # holds the public images.
 
-src/ # holds the application files.
-
-tests/ # holds the Playwright acceptance tests.
-
-.eslintrc.json # The ESLint configuration.
-
-.gitignore # don't commit VSCode settings files, node_modules, and settings.production.json
-
-```
 
 This structure separates documentation files (such as screenshots) and configuration files (such as the settings files) from the actual Next.js application.
 
