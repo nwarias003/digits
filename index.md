@@ -8,7 +8,7 @@ Digits is an application that allows users to:
 
 ## Installation
 
-First, [download a copy of Digits](https://github.com/nwarias003/digits) 
+First, [download a copy of Digits](https://github.com/nwarias003/digits). 
 
 Second, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
 
@@ -145,12 +145,24 @@ Click on the Login link, then click on the Signin link to bring up the Sign In p
 User home page
 After successfully logging in, the system takes you to your home page. It is just like the landing page, but the NavBar contains links to list contact and add new contacts:
 
+<img src="doc/signin.png">
 
 
 List Contacts
 Clicking on the List Contacts link brings up a page that lists all of the contacts associated with the logged in user:
 
+<img src="doc/contacts.png">
 
 
 This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
+<img src="doc/note.png">
 
+Edit Contacts
+From the List Contacts page, the user can click the “Edit” link associated with any Contact to bring up a page that allows that Contact information to be edited:
+
+<img src="doc/edit.png">
+
+Admin mode
+It is possible to designate one or more users as “Admins” through the settings file. When a user has the Admin role, they get access to a special NavBar link that retrieves a page listing all Contacts associated with all users:
+
+<img src="doc/admin.png">
