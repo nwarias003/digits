@@ -129,7 +129,7 @@ The following sections describe the major features of this template.
 
 When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
 
-<img src="doc/landing.png">
+<img src="doc/landing.png" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); border-radius: 4px;" alt="Landing Page Screenshot">
 
 
 ### Register
