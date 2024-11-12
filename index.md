@@ -30,6 +30,14 @@ $ npm install
 
 ```
 
+Once the libraries are installed, you can run the application by invoking:
+
+```
+
+$ npm run start
+
+```
+
 Fifth, create a `.env` file from the `sample.env`. Set the `DATABASE_URL` variable to match your PostgreSQL database that you created in the first step. See the Prisma docs [Connect your database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql). Then run the Prisma migration `npx prisma migrate dev` to set up the PostgreSQL tables.
 
 ```
@@ -41,15 +49,26 @@ Datasource "db": PostgreSQL database "<your database name>", schema "public" at 
 
 Applying migration `20240708195109_init`
 
+Applying migration `20240708195109_init`
+Applying migration `20241106013956_contact`
+Applying migration `20241110005057_note`
+Applying migration `20241111220252_cleanup`
+
 The following migration(s) have been applied:
 
 migrations/
-└─ 20240708195109_init/
-└─ migration.sql
+  └─ 20240708195109_init/
+    └─ migration.sql
+  └─ 20241106013956_contact/
+    └─ migration.sql
+  └─ 20241110005057_note/
+    └─ migration.sql
+  └─ 20241111220252_cleanup/
+    └─ migration.sql
 
 Your database is now in sync with your schema.
 
-✔ Generated Prisma Client (v5.16.1) to ./node_modules/@prisma/client in 51ms
+✔ Generated Prisma Client (v5.21.1) to .\node_modules\@prisma\client in 41ms
 
 $
 
@@ -65,10 +84,10 @@ Running seed command `ts-node --compiler-options {"module":"CommonJS"} prisma/se
 Seeding the database
 Creating user: admin@foo.com with role: ADMIN
 Creating user: john@foo.com with role: USER
-Adding stuff: Basket (john@foo.com)
-Adding stuff: Bicycle (john@foo.com)
-Adding stuff: Banana (admin@foo.com)
-Adding stuff: Boogie Board (admin@foo.com)
+Adding contact: Philip Johnson
+Adding contact: Henri Casanova
+Adding contact: Kim Binsted
+
 
 🌱 The seed command has been executed.
 $
