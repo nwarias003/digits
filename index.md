@@ -30,14 +30,6 @@ $ npm install
 
 ```
 
-Once the libraries are installed, you can run the application by invoking:
-
-```
-
-$ npm run start
-
-```
-
 Fifth, create a `.env` file from the `sample.env`. Set the `DATABASE_URL` variable to match your PostgreSQL database that you created in the first step. See the Prisma docs [Connect your database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql). Then run the Prisma migration `npx prisma migrate dev` to set up the PostgreSQL tables.
 
 ```
