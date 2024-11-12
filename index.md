@@ -158,6 +158,8 @@ This page also allows the user to add timestamped “notes” detailing interact
 <img src="doc/note.png">
 
 ### Add Contacts
+From the Home page or List Contacts page, the user can click the 'Add Contact' link to bring up a page that allows them to enter new contact information. This page includes fields for the contact's first and last name, address, image, and description. After filling out the form, the user can save the new contact, which will then appear in the list of contacts.
+
 <img src="doc/add.png">
 
 ### Edit Contacts
