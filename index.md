@@ -132,84 +132,12 @@ When you first bring up the application, you will see the landing page that prov
 <img src="doc/landing.png">
 
 
+Register
+If you do not yet have an account on the system, you can register by clicking on “Login”, then “Sign Up”:
+
+<img src="doc/signup.png">
 
 
-
-
-
-This structure separates documentation files (such as screenshots) and configuration files (such as the settings files) from the actual Next.js application.
-
-The src/ directory has this structure:
-
-```
-
-app/
-
-  add/ # The add route
-    page.tsx # The Add Stuff Page
-
-  admin/
-    page.tsx # The Admin Page
-
-  api/auth/[...nextauth]/
-    route.ts # The NextAuth configuration
-
-  auth/
-    change-password/
-      page.tsx # The Change Password Page
-
-    signin/
-      page.tsx # The Sign In Page
-
-    signout/
-      page.tsx # The Sign Out Page
-
-    signup/
-      page.tsx # The Sign Up / Register Page
-
-  edit/
-    page.tsx # The Edit Stuff Page
-
-  list/
-    page.tsx # The List Stuff Page
-
-  not-authorized/
-    page.tsx # The Not Authorized Page
-
-  layout.tsx # The layout of the application
-
-  page.tsx # The Landing Page
-
-  providers.tsx # Session providers.
-
-  components/
-    AddStuffForm.tsx # The React Hook Form for adding stuff.
-
-    EditStuffForm.tsx # The Edit Stuff Form.
-
-    Footer.tsx # The application footer.
-
-    LoadingSpinner.tsx # Indicates working.
-
-    Navbar.tsx # The application navbar.
-
-    StuffItem.tsx # Row in the list stuff page.
-
-    StuffItemAdmin.tsx # Row in the admin list stuff page.
-
-  lib/
-
-    dbActions.ts # Functions to manipulate the Postgres database.
-
-    page-protections.ts # Functions to check for logged in users and their roles.
-
-    prisma.ts # Singleton Prisma client.
-
-    validationSchemas.ts # Yup schemas for validating forms.
-
-  tests/ # playwright acceptance tests.
-
-```
 
 ### Application functionality
 
