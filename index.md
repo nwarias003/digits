@@ -145,3 +145,12 @@ Click on the Login link, then click on the Signin link to bring up the Sign In p
 User home page
 After successfully logging in, the system takes you to your home page. It is just like the landing page, but the NavBar contains links to list contact and add new contacts:
 
+
+
+List Contacts
+Clicking on the List Contacts link brings up a page that lists all of the contacts associated with the logged in user:
+
+
+
+This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
+
