@@ -22,7 +22,7 @@ $
 
 ```
 
-Fourth, cd into the app directory install the required libraries with:
+Fourth, cd into the app directory and install the required libraries with:
 
 ```
 
@@ -86,9 +86,7 @@ $
 
 ```
 
-## Running the system
-
-Once the libraries are installed and the database seeded, you can run the application by invoking the "dev" script in the [package.json file](https://github.com/ics-software-engineering/nextjs-application-template/blob/master/app/package.json):
+Once the libraries are installed and the database seeded, you can run the application by invoking the "dev" script in the [package.json file](https://github.com/nwarias003/digits/blob/main/package.json):
 
 ```
 
@@ -97,13 +95,11 @@ $ npm run dev
 > nextjs-application-template-1@0.1.0 dev
 > next dev
 
-▲ Next.js 14.2.4
+  ▲ Next.js 14.2.10
+  - Local:        http://localhost:3000
 
-- Local: http://localhost:3000
-- Environments: .env
-
-✓ Starting...
-✓ Ready in 1619ms
+ ✓ Starting...
+ ✓ Ready in 2.5s
 
 ```
 
