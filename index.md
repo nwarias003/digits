@@ -158,6 +158,7 @@ This page also allows the user to add timestamped “notes” detailing interact
 <img src="doc/note.png">
 
 ### Add Contacts
+<img src="doc/add.png">
 
 ### Edit Contacts
 From the List Contacts page, the user can click the “Edit” link associated with any Contact to bring up a page that allows that Contact information to be edited:
